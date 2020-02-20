@@ -12,6 +12,7 @@ body{
     border: 1px solid green;
     margin: 10% auto;
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #container h1{
