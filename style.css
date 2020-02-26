@@ -4,11 +4,13 @@ body{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-
 }
 #container{
     width: 100vw;
-    height: 100vh;     
+    height: 100vh;  
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
 }
     #cabecera{
         display: flex;
@@ -28,15 +30,21 @@ body{
         box-sizing: border-box;
         margin: 10px;       
     }
-#post{
-    width: 100%;
-    height: 85%;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-}
-#container h1{
-    font-size: 20px;
-    text-align: center;
-}
+    #post{
+        width: 80%;
+        height: 77.5%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        border: ridge 2px;
+    }
+    #footer{
+        width: 100%;
+        height: 7.5%;
+        background-color: slategray;
+        font-family: 'Advent Pro';
+        font-size: 1.2rem;
+        color: white;
+
+    }
